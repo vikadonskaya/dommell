@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Домашние мелочи</title>
+  <meta name="description" content="Default Description">
+  <meta name="keywords" content="E-commerce" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="shortcut icon" type="image/x-icon" href="img/icon/favicon.png">
+  <link href="https://fonts.googleapis.com/css?family=Lily+Script+One" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/meanmenu.min.css">
+  <link rel="stylesheet" href="css/nivo-slider.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="css/default.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body>
+  <!-- Меню -->
+  <header>
+
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <!-- лого -->
+          <div class="col-xl-3 col-lg-2 col-sm-5 col-5">
+            <div class="logo">
+              <a href="index.html"><img src="img/logo/logo.png" alt="logo-image"></a>
+            </div>
+          </div>
+          <!-- поиск -->
+          <div class="col-lg-4 col-md-6 ml-auto mr-auto">
+            <div class="search-box-view">
+              <form action="#">
+                <input type="text" class="email" placeholder="Поиск" name="product">
+                <button type="submit" class="submit"><img src="img/icon/search.png"></button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-12">
+            <div class="header-top-right">
+              <ul class="header-list-menu f-right">
+
+                <a href="#"><img src="img/icon/tel1.png">8-914-365-37-95</a><br>
+                <a href="#"><img src="img/icon/lok1.png">Советская 23</a>
+
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom header-sticky">
+      <div class="container">
+        <div class="row" style="background: #1D43CA;">
+          <div class="col-xl-6 col-lg-7 d-none d-lg-block">
+            <div class="middle-menu pull-left">
+              <nav>
+                <ul class="middle-menu-list">
+                  <li><a href="index.html">главная</a>
+                  </li>
+                  <li><a href="about.html">о нас</a></li>
+                  <li><a href="shop.html">товары</a>
+                    <ul class="ht-dropdown dropdown-style-two">
+                      <li><b href="shop.html">Продукты</b>
+                        <ul class="ht-dropdown dropdown-style-two sub-menu">
+                          <li><b href="shop.html">Вода и напитки</b>
+                          </li>
+                          <li><b href="shop.html">Овощи и фрукты</b></li>
+                          <li><b href="shop.html">Выпечка и сладости</b></li>
+                          <li><b href="shop.html">Мясо</b></li>
+                          <li><b href="shop.html">Заморозка</b></li>
+                        </ul>
+                      </li>
+                      <li><b href="product.html">Мебель</b></li>
+                      <li><b href="compare.html">Хозтовары</b></li>
+                      <li><b href="cart.html">Товары для детей</b></li>
+                      <li><b href="checkout.html">Автозапчасти</b></li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="cart-box text-right">
+            <ul>
+              <li id="openBtn"><a><img src="img/icon/basket.png"></a></li>
+
+              <li><a href="wishlist.html"><img src="img/icon/like.png"></a></li>
+              <li><a href="#demo-modal"><img src="img/icon/ac.png"></a></li>
+              <div id="demo-modal" class="modal">
+                <div class="modal__content">
+                  <div class="col-sm-12">
+                    <ul class="main-thumb-desc nav">
+                      <li><a class="active" data-toggle="tab" href="#dtail">Вход</a></li>
+                      <li><a data-toggle="tab" href="#review">Регистрация</a></li>
+                    </ul>
+                    <div class="tab-content thumb-content">
+                      <div id="dtail" class="tab-pane in active">
+                        <form autocomplete="off" action="#">
+                          <div class="form-group">
+                            <label class="req" for="sure-name">Имя</label>
+                            <input type="text" class="form-control" id="user" required="required">
+                          </div>
+                          <div class="form-group">
+                            <label class="req" for="subject">Пароль</label>
+                            <input type="text" class="form-control" id="code" required="required">
+                          </div>
+                          <button type="submit" class="btn-submit"><a style="color: #fff;"
+                              href="акк.html">Войти</a></button>
+                        </form>
+                      </div>
+                      <div id="review" class="tab-pane">
+                        <div class="review">
+                          <form autocomplete="off" action="#">
+                            <div class="form-group">
+                              <label class="req" for="sure-name">ФИО</label>
+                              <input type="text" class="form-control" id="sure-name" required="required">
+                            </div>
+                            <div class="form-group">
+                              <label class="req" for="subject">Почта</label>
+                              <input type="text" class="form-control" id="subject" required="required">
+                            </div>
+                            <div class="form-group">
+                              <label class="req" for="subject">Придумайте пароль</label>
+                              <input type="text" class="form-control" id="subject" required="required">
+                            </div>
+                            <div class="form-group">
+                              <label class="req" for="subject">Повторите пароль</label>
+                              <input type="text" class="form-control" id="subject" required="required">
+                            </div>
+                            <button type="submit" class="btn-submit">Зарегестрироваться</button>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <a href="#" class="modal__close">&times;</a>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 d-lg-none">
+          <div class="mobile-menu">
+            <nav>
+              <ul>
+                <li><a href="index.html">главная</a>
+                </li>
+                <li><a href="shop.html">товары</a>
+                  <div class="log-mob">
+                    <div class="logo">
+                      <a href="index.html"><img src="img/logo/logo.png" alt="logo-image"></a>
+                    </div>
+                  </div>
+                  <ul>
+                    <li><a href="product.html">Продукты</a>
+                      <ul>
+                        <li><a href="shop.html">Вода и напитки</a>
+                        </li>
+                        <li><a href="shop.html">Овощи и фрукты</a></li>
+                        <li><a href="shop.html">Выпечка и сладости</a></li>
+                        <li><a href="shop.html">Мясо</a></li>
+                        <li><a href="shop.html">Заморозка</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="product.html">Мебель</a></li>
+                    <li><a href="compare.html">Хозтовары</a></li>
+                    <li><a href="cart.html">Товары для детей</a></li>
+                    <li><a href="checkout.html">Автозапчасти</a></li>
+                  </ul>
+                </li>
+                <li><a href="about.html">о нас</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div id="sideMenu" class="basket">
+    <div class="col-sm-12 col-md-12 col-xs-12">
+      <h4 class=" badge-light mt-3 mb-3 p-2 text-center">Корзина</h4>
+      <div class="cart"></div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="image"></div>
+  </div>
+  <div class="best-seller-product pb-30">
+    <div class="container">
+      <div class="group-title">
+        <div class="demo">
+          <input type="checkbox" id="hd-2" class="hide" />
+          <label for="hd-2">Мои данные</label>
+          <div>
+            <ul class="review-list">
+              <li>
+                <span>ФИО</span>
+                <label>Дамс Дмитрий Анатольевич</label>
+              </li>
+              <li>
+                <span>Дата рождения</span>
+                <label>10.10.2000</label>
+              </li>
+              <li>
+                <span>Почта</span>
+                <label>dddd@mail.ru</label>
+              </li>
+            </ul>
+          </div>
+          <br />
+          <br />
+          <input type="checkbox" id="hd-1" class="hide" />
+          <label for="hd-1">Карты</label>
+          <div>
+
+            <div class="credit-card" id="card">
+              <div class="card-front">
+                <div class="branding">
+                  <img src="chip.png" class="chip-img" />
+                  <img src="visa.png" class="visa-logo" />
+                </div>
+                <div class="card-number">
+                  <div>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                  </div>
+                  <div>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                  </div>
+                  <div>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                  </div>
+                  <div>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                    <span class="card-number-display">_</span>
+                  </div>
+                </div>
+                <div class="details">
+                  <div>
+                    <span>Card Holder</span>
+                    <span id="card-holder-name">Your Name Here</span>
+                  </div>
+                  <div>
+                    <span>Expires</span>
+                    <span id="validity">06/28</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-back">
+                <div class="black-strip"></div>
+                <div class="white-strip">
+                  <span>CVV</span>
+                  <div id="cvv-display"></div>
+                </div>
+                <img src="visa.png" class="visa-logo" />
+              </div>
+            </div>
+
+            <div id="modal-cart" class="modal">
+              <div class="modal__content">
+                <form>
+                  <label for="card-number">Card Number</label>
+                  <input type="number" id="card-number" placeholder="1234123412341234" />
+
+                  <label for="card-holder">Card Holder:</label>
+                  <input type="text" id="card-name-input" placeholder="Your Name" />
+
+                  <div class="date-cvv">
+                    <div>
+                      <label for="validity">Expires On:</label>
+                      <input type="date" id="validity-input" />
+                    </div>
+                    <div>
+                      <label for="cvv">CVV:</label>
+                      <input type="number" id="cvv" placeholder="***" />
+                    </div>
+                  </div>
+                </form>
+                <a href="#" class="modal__close">&times;</a>
+              </div>
+            </div>
+
+            <li><a href="#modal-cart"><button type="submit" class="btn-submit">Редактировать</button></a></li>
+          </div>
+          <br />
+          <br />
+          <input type="checkbox" id="hd-3" class="hide" />
+          <label for="hd-3">Адреса</label>
+          <div>
+            г. Чита, ул. Перлам, 33 <br>
+            <button class="btn-submit">Изменить</button>
+            <button class="btn-submit">Добавить</button>
+          </div>
+          <br />
+          <br />
+          <input type="checkbox" id="hd-4" class="hide" />
+          <label for="hd-4">Покупки</label>
+          <div>
+            <div class="table-content table-responsive">
+              <table>
+                <tbody>
+                  <tr>
+                    <td class="product-thumbnail">
+                      <a href="#"><img src="img/products/1.jpg" alt="cart-image" /></a>
+                    </td>
+                    <td>Сок Добрый</td>
+                    <td>200р</td>
+                    <td>Яблоко</td>
+                    <td>открыть</td>
+                  </tr>
+                  <tr>
+                    <td class="product-thumbnail">
+                      <a href="#"><img src="img/products/1.jpg" alt="cart-image" /></a>
+                    </td>
+                    <td>Сок Добрый</td>
+                    <td>200р</td>
+                    <td>Яблоко</td>
+                    <td>открыть</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer style="margin-top: 5%; background: #1D43CA; color: #fff;">
+    <div class="container container-42">
+      <div class="row">
+        <div class="col-lg-4  col-md-7 col-sm-6">
+          <div class="single-footer">
+            <h3>Контакты</h3>
+            <div class="footer-content">
+              <div class="loc-address">
+                <span><img style="margin-right: 1%; height: 20px;" src="img/icon/lok2.png">Советская
+                  23</span>
+                <span><img style="margin-right: 1%;height: 15px;" src="img/icon/mail.png">malkov00.00@mail.ru</span>
+                <span><img style="margin-right: 1%; height: 20px;" src="img/icon/tel2.png">8-914-365-37-95</span>
+              </div>
+              <div style="margin-bottom: 5%; margin-top: 5%;">
+                <a href="#">
+                  <img style="margin-right: 10%;" src="img/icon/tg.png">
+                </a>
+                <a href="#">
+                  <img style="margin-right: 10%;" src="img/icon/vk.png">
+                </a>
+                <a href="#">
+                  <img src="img/icon/vt.png">
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 mr-auto ml-auto">
+          <div class="newsletter text-right">
+            <div class="main-news-desc">
+              <div class="news-desc">
+                <h5>Рассылка</h5>
+                <p>Получайте самые свежие новости о скидках и акциях</p>
+              </div>
+            </div>
+            <div class="newsletter-box">
+              <form action="#">
+                <input class="subscribe" placeholder="Введите ваш е-mail" name="email" id="subscribe" type="text">
+                <button type="submit" class="submit">подписаться</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <a href="#" id="scroll_top" title="Наверх"></a>
+  </div>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/ajax-mail.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
+  <script src="js/jquery.nivo.slider.js"></script>
+  <script src="js/jquery.scrollUp.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
