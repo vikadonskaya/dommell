@@ -44,6 +44,10 @@ body {
 }
 
 
+.reguser{
+    height: 200px;
+}
+
 /*модалка*/
 .modal {
     visibility: hidden;
@@ -80,8 +84,6 @@ body {
     right: 20px;
     color: #ffffff;
 }
-
-
 
 
 /*кредитка*/
@@ -2109,6 +2111,7 @@ ul.ht-dropdown.dropdown-style-two li {
 .yellow {
     background: #ffd500;
 }
+
 
 .main-categorie #list-view .single-product {
     padding: 30px 15px;
